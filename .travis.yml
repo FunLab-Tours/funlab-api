@@ -9,7 +9,7 @@ addons:
     - sshpass
 branches:
   only:
-    - dev
+    - master
 
 after_success:
   # - sshpass -p ${SSH_PASSWORD} ssh -v ${SSH_USER}@funlab.fr 'find funlab.fr/ ! -path "*./public*" | xargs rm -rfd'
